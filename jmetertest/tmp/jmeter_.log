@@ -1,0 +1,62 @@
+2020-05-25 10:58:31,919 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-05-25 10:58:31,933 INFO o.a.j.JMeter: Loading user properties from: /opt/apache-jmeter-5.1.1/bin/user.properties
+2020-05-25 10:58:31,933 INFO o.a.j.JMeter: Loading system properties from: /opt/apache-jmeter-5.1.1/bin/system.properties
+2020-05-25 10:58:31,937 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2020-05-25 10:58:31,938 INFO o.a.j.JMeter: Version 5.1.1 r1855137
+2020-05-25 10:58:31,938 INFO o.a.j.JMeter: java.version=1.8.0_222
+2020-05-25 10:58:31,938 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2020-05-25 10:58:31,938 INFO o.a.j.JMeter: os.name=Linux
+2020-05-25 10:58:31,938 INFO o.a.j.JMeter: os.arch=amd64
+2020-05-25 10:58:31,938 INFO o.a.j.JMeter: os.version=4.18.0-15-generic
+2020-05-25 10:58:31,938 INFO o.a.j.JMeter: file.encoding=UTF-8
+2020-05-25 10:58:31,938 INFO o.a.j.JMeter: java.awt.headless=true
+2020-05-25 10:58:31,938 INFO o.a.j.JMeter: Max memory     =167772160
+2020-05-25 10:58:31,938 INFO o.a.j.JMeter: Available Processors =8
+2020-05-25 10:58:31,942 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-05-25 10:58:31,942 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-05-25 10:58:31,943 INFO o.a.j.JMeter: JMeterHome=/opt/apache-jmeter-5.1.1
+2020-05-25 10:58:31,943 INFO o.a.j.JMeter: user.dir  =/opt/apache-jmeter-5.1.1
+2020-05-25 10:58:31,943 INFO o.a.j.JMeter: PWD       =/opt/apache-jmeter-5.1.1
+2020-05-25 10:58:31,944 INFO o.a.j.JMeter: IP: 172.18.0.5 Name: 0e421087c4b0 FullName: 0e421087c4b0
+2020-05-25 10:58:31,947 INFO o.a.j.s.FileServer: Default base='/opt/apache-jmeter-5.1.1'
+2020-05-25 10:58:31,951 INFO o.a.j.s.FileServer: Set new base='/mnt/jmeter'
+2020-05-25 10:58:32,068 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-05-25 10:58:32,079 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-05-25 10:58:32,083 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-05-25 10:58:32,087 INFO o.a.j.s.SaveService: Loading file: /mnt/jmeter/pdfDataTestPlan.jmx
+2020-05-25 10:58:32,125 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-25 10:58:32,125 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-25 10:58:32,125 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-25 10:58:32,125 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-25 10:58:32,125 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-05-25 10:58:32,125 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-05-25 10:58:32,139 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-05-25 10:58:32,140 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-05-25 10:58:32,140 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-05-25 10:58:32,140 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-05-25 10:58:32,149 INFO o.a.j.JMeter: Creating summariser <summary>
+2020-05-25 10:58:32,153 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-05-25 10:58:32,154 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-05-25 10:58:32,154 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-05-25 10:58:32,160 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-05-25 10:58:32,160 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-05-25 10:58:32,449 INFO o.a.j.v.b.BackendListener: Backend Listener: Starting worker with class: class org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient and queue capacity: 5000
+2020-05-25 10:58:32,450 INFO o.a.j.v.b.BackendListener: Backend Listener: Started  worker with class: class org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient
+2020-05-25 10:58:32,602 INFO o.a.j.JMeter: Running test (1590404312602)
+2020-05-25 10:58:32,653 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-05-25 10:58:32,653 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2020-05-25 10:58:32,653 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-05-25 10:58:32,653 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2020-05-25 10:58:32,659 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-05-25 10:58:32,659 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-05-25 10:58:32,662 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-05-25 10:58:32,684 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = 0e421087c4b0
+2020-05-25 10:58:32,689 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2020-05-25 10:58:32,769 INFO o.a.j.r.Summariser: summary +      1 in 00:00:00 =    6.0/s Avg:    23 Min:    23 Max:    23 Err:     1 (100.00%) Active: 1 Started: 1 Finished: 0
+2020-05-25 10:58:32,770 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2020-05-25 10:58:32,770 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-05-25 10:58:32,771 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-05-25 10:58:32,771 INFO o.a.j.v.b.BackendListener: Worker ended
+2020-05-25 10:58:32,772 INFO o.a.j.v.b.i.InfluxdbBackendListenerClient: Sending last metrics
+2020-05-25 10:58:32,774 INFO o.a.j.v.b.i.HttpMetricsSender: Destroying 
+2020-05-25 10:58:32,820 INFO o.a.j.r.Summariser: summary =      1 in 00:00:00 =    4.6/s Avg:    23 Min:    23 Max:    23 Err:     1 (100.00%)

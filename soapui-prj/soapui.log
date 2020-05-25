@@ -1,0 +1,20 @@
+2020-05-25 10:48:45,767 INFO  [DefaultSoapUICore] Creating new settings at [/home/soapui/soapui-settings.xml]
+2020-05-25 10:48:46,221 INFO  [PluginManager] 0 plugins loaded in 1 ms
+2020-05-25 10:48:46,222 INFO  [DefaultSoapUICore] All plugins loaded
+2020-05-25 10:48:46,572 INFO  [WsdlProject] Loaded project from [file:/home/soapui/soapui-prj/PDFetchData-soapui-project.xml]
+2020-05-25 10:48:46,575 INFO  [SoapUIMockServiceRunner] Running MockService [PDF] in project [PDFetchData]
+2020-05-25 10:48:46,576 INFO  [SoapUIMockServiceRunner] Press any key to terminate
+2020-05-25 10:48:46,632 INFO  [jetty] Logging to com.eviware.soapui.support.log.JettyLogger@409c54f via com.eviware.soapui.support.log.JettyLogger
+2020-05-25 10:48:46,870 INFO  [jetty] jetty-6.1.26
+2020-05-25 10:48:46,963 INFO  [jetty] Started JettyMockEngine$SoapUIConnector@0.0.0.0:8080
+2020-05-25 10:48:46,963 INFO  [JettyMockEngine] Started mockService [PDF] on port [8080] at path [/]
+2020-05-25 10:48:46,963 INFO  [SoapUIMockServiceRunner] MockService started on port 8080 at path [/]
+2020-05-25 10:48:46,964 INFO  [SoapUIMockServiceRunner] Started 1 runner
+2020-05-25 10:49:08,103 INFO  [SoapUIMockServiceRunner] Handled request 1; [/v1/digital/fetch/pdfData] with [Response 1] in [0ms] at [2020-05-25 10:49:08.083]
+2020-05-25 10:49:11,065 INFO  [SoapUIMockServiceRunner] Handled request 2; [/v1/digital/fetch/pdfData] with [Response 1] in [0ms] at [2020-05-25 10:49:11.064]
+2020-05-25 10:49:11,400 INFO  [SoapUIMockServiceRunner] Handled request 3; [/v1/digital/fetch/pdfData] with [Response 1] in [0ms] at [2020-05-25 10:49:11.400]
+2020-05-25 10:56:59,320 INFO  [SoapUIMockServiceRunner] Handled request 4; [/v1/digital/fetch/pdfData] with [Response 1] in [0ms] at [2020-05-25 10:56:59.319]
+2020-05-25 10:58:32,749 INFO  [SoapUIMockServiceRunner] Handled request 5 - [missing mockResponse] in [0ms] at [2020-05-25 10:58:32.748]
+2020-05-25 11:01:07,148 INFO  [JettyMockEngine] Stopped MockService [PDF] on port [8080]
+2020-05-25 11:01:07,148 INFO  [SoapUIMockServiceRunner] MockService stopped, handled 5 requests
+2020-05-25 11:01:07,149 INFO  [SoapUIMockServiceRunner] time taken: 740573ms

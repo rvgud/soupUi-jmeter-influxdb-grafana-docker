@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1590404219305,23,Get PDF Data,200,OK,Thread Group 1-1,text,true,,10907,143,1,1,http://soapuimock:8080/v1/digital/fetch/pdfData,22,0,12
+1590404312733,23,Get PDF Data,404,Not Found,Thread Group 1-1,,false,,82,143,1,1,http://soapuimock:8080/v2/digital/fetch/pdfData,23,0,13
